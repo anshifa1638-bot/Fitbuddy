@@ -31,3 +31,6 @@ Before contributing to FitBuddy, review these technologies and references:
 8. **Uvicorn ASGI server:** [Uvicorn Documentation](https://www.uvicorn.org/)
 
 FitBuddy currently uses Python's built-in `sqlite3` module for local storage. SQLAlchemy knowledge is useful for future database migrations, but SQLAlchemy is not required to run the current application.
+
+
+video Demo Link:https://drive.google.com/file/d/1MXGBciUA5wt0o9dIgvRAyEUXAT2rlKY9/view?usp=drivesdk
