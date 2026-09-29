@@ -1,0 +1,64 @@
+Phase 1 – Brainstorming & Ideation
+FitBuddy – AI-Powered Personalized Fitness Assistant
+Template folder: 1. Brainstorming & Ideation
+Phase Objective
+Identify the problem, target users, proposed AI solution, major features, and expected project outcome before
+implementation.
+
+1.1 Problem Identification
+• People beginning a fitness routine often need a simple weekly plan instead of disconnected exercise suggestions.
+• A fitness assistant should adapt recommendations to basic user information such as age, height, weight, and fitness
+goal.
+• The solution should provide both workout guidance and practical nutrition suggestions while keeping the interaction
+simple.
+
+1.2 Proposed Solution
+• FitBuddy is proposed as an AI-assisted web application that collects a user's fitness profile and generates structured
+fitness guidance.
+• The application combines deterministic starter workouts with Gemini-based generation so that useful output remains
+available even when the AI service is not configured or temporarily unavailable.
+• User feedback can be used to request a revised plan, creating a basic personalization loop.
+
+1.3 Core Ideas
+• Profile-based personalization.
+• Seven-day workout generation.
+• Nutrition tips and meal ideas.
+• Feedback collection and plan revision.
+• Local persistence using SQLite.
+• Simple browser interface with a FastAPI backend.
+• Deployment path for a hosted web service.
+
+1.4 Expected Outcome
+• A working prototype that demonstrates how Generative AI can be combined with a web API and local database to
+create a personalized fitness assistant.
+• A project structure that can later be extended with authentication, progress tracking, richer UI, and production
+database infrastructure.
+Phase Deliverables
+• Problem statement
+• Solution concept
+• Feature list
+• Initial technology choices
+• Expected outcome
+FitBuddy Files Related to This Phase
+• README.md
+• app/main.py
+• app/routes.py
+• app/templates/index.html
+
+Project Technology
+Component
+Implementation
+Backend
+Frontend
+Database
+Generative AI
+Validation
+Testing
+Python + FastAPI + Uvicorn
+HTML/Jinja-style template served by FastAPI
+SQLite using Python sqlite3
+Google Gemini through google-genai
+Pydantic
+FastAPI TestClient
+Deployment
+Render configuration in render.yam
