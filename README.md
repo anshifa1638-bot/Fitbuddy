@@ -1,35 +1,16 @@
-# FitBuddy
-FitBuddy is a FastAPI fitness assistant that creates structured seven-day workout plans, concise nutrition tips, and feedback-based plan updates with Gemini.
+# FitBuddy – AI Fitness Plan Generator using Gemini Models
 
-## Run locally
+This package follows the 8-folder structure shown in the supplied GitHub template screenshot.
 
-```powershell
-.\.venv\Scripts\python.exe -m pip install -r requirements.txt
-.\.venv\Scripts\python.exe -m uvicorn app.main:app --reload
-```
+1. Brainstorming & Ideation
+2. Requirement Analysis
+3. Project Design Phase
+4. Project Planning Phase
+5. Project Development Phase
+6. Project Testing
+7. Project Documentation
+8. Project Demonstration
 
-Open `http://127.0.0.1:8000`.
+Each folder contains a DOCX and PDF document prepared specifically for the uploaded FitBuddy implementation.
 
-Copy `.env.example` to `.env` and add your Gemini API key. Never commit `.env`.
-
-## Deployment
-
-The included `render.yaml` contains the Render web-service configuration. Add `GEMINI_API_KEY` and `ADMIN_TOKEN` as secret environment variables in Render.
-
-## Prerequisites and Documentation
-
-Before contributing to FitBuddy, review these technologies and references:
-
-1. **FastAPI framework:** [FastAPI Documentation](https://devdocs.io/fastapi/)
-2. **Gemini API:** [Google Generative AI Documentation](https://ai.google.dev/)
-3. **HTML, CSS, and templates:** [W3Schools HTML/CSS/Jinja2 Tutorials](https://www.w3schools.com/)
-4. **Python:** [Python Documentation](https://docs.python.org/3/)
-5. **Version control:** [Git Documentation](https://git-scm.com/doc)
-6. **SQLite and database basics:** [SQLite Documentation](https://www.sqlite.org/docs.html)
-7. **Environment setup:** [Virtualenv Guide](https://virtualenv.pypa.io/en/latest/)
-8. **Uvicorn ASGI server:** [Uvicorn Documentation](https://www.uvicorn.org/)
-
-FitBuddy currently uses Python's built-in `sqlite3` module for local storage. SQLAlchemy knowledge is useful for future database migrations, but SQLAlchemy is not required to run the current application.
-
-
-video demo link :https://drive.google.com/file/d/1MXGBciUA5wt0o9dIgvRAyEUXAT2rlKY9/view?usp=drivesdk
+The documentation is based on the source files in the uploaded FitBuddy project archive. Sensitive `.env` values are not reproduced.
