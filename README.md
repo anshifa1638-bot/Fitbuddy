@@ -11,6 +11,4 @@ This package follows the 8-folder structure shown in the supplied GitHub templat
 7. Project Documentation
 8. Project Demonstration
 
-Each folder contains a DOCX and PDF document prepared specifically for the uploaded FitBuddy implementation.
-
-The documentation is based on the source files in the uploaded FitBuddy project archive. Sensitive `.env` values are not reproduced.
+The documentation is based on the source files in the uploaded FitBuddy project archive. 
